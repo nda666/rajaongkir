@@ -1,6 +1,5 @@
 {
   "name": "nda666/rajaongkir",
-  "version": "0.2",
   "description": "Raja Ongkir API PHP Class clone from zhiephie/rajaongkir",
   "license": "MIT",
   "type": "library",
