@@ -1,44 +1,43 @@
 {
-    "name": "nda666/rajaongkir",
-    "version": "0.1",
-    "description": "Raja Ongkir API PHP Class clone from zhiephie/rajaongkir",
-    "license": "MIT",
-    "type": "library",
-    "keywords": [
-    ],
-    "authors": [
-        {
-            "name": "Adha Bakhtiar",
-            "email": "adhabakhtiar@gmail.com"
-        }
-    ],
-    "support": {
-      "email": "adhabakhtiar@gmail.com",
-      "issues": "https://github.com/nda666/rajaongkir/issues"
-    },
-    "require": {
-        "php": ">=5.3",
-        "kitetail/zttp": "^0.6.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": ">=6.0.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Nda666\\": "src/Nda666"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit --testdox tests"
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+  "name": "nda666/rajaongkir",
+  "version": "0.2",
+  "description": "Raja Ongkir API PHP Class clone from zhiephie/rajaongkir",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [],
+  "authors": [
+    {
+      "name": "Adha Bakhtiar",
+      "email": "adhabakhtiar@gmail.com"
+    }
+  ],
+  "support": {
+    "email": "adhabakhtiar@gmail.com",
+    "issues": "https://github.com/nda666/rajaongkir/issues"
+  },
+  "require": {
+    "php": ">=5.3",
+    "kitetail/zttp": "^0.6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=6.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nda666\\": "src/Nda666"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit --testdox tests"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
